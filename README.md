@@ -29,7 +29,13 @@ ___
 
 ## FIX_FRACT_HASH
 
-### Fix (not always needed) to inconsistent fract hash:
+### Fix (not always needed) to inconsistent fract hash: (look screenshots below)
+
+- *use it only when you actually see fract hash is broken for your case - in most cases like noise-use case fract hash is stable*
+- this *"fix"* hit performance of fract-hash and making performance equal to int-hash (without this fix)
+- int hash with this fix will be slower than fract-hash with fix
+- and when fract-hash is broken int hash will also be broken so require same *"fix"* - [image](https://danilw.github.io/GLSL-howto/vulkan_sh_launcher/images_bugs/Ntcyz7_Uhash_bug.jpg)
+- read blog - [**Hash Noise stability in GPU Shaders**](https://arugl.medium.com/hash-noise-in-gpu-shaders-210188ac3a3e)
 
 ```C
 // not always needed, and not always fix
