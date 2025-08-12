@@ -10,7 +10,7 @@ ___
 ___
 
 - **Use fract hash** - **https://www.shadertoy.com/view/4djSRW**
-- *Or int hash - but int hash have exact same behavior as fract hash, when fract hash is faster on GPU.*
+- *Or int hash - but int hash have exact same behavior as fract hash - because source of random is float.*
 - But - int and fract hash *can still be "broken"*
 
 ___
