@@ -5,9 +5,15 @@ ___
 
 *Sin-hash is not stable on "any scale" and there no way to fix it.*
 
+![img](https://danilw.github.io/GLSL-howto/vulkan_sh_launcher/images_bugs/stK3WG_comp.png)
+
+___
+
 - **Use fract hash** - **https://www.shadertoy.com/view/4djSRW**
 - *Or int hash - but int hash have exact same behavior as fract hash, when fract hash is faster on GPU.*
 - But - int and fract hash *can still be "broken"*
+
+___
 
 ## Read [Hash Noise in GPU Shaders](https://arugl.medium.com/hash-noise-in-gpu-shaders-210188ac3a3e) - there lots of screenshots
 
@@ -47,3 +53,9 @@ ___
 | <img src="https://danilw.github.io/GLSL-howto/vulkan_sh_launcher/images_bugs/4fSXDd.png" width="650" height="auto" /> | Related-example of fract-hash instability described in blog post [**Hash Noise stability in GPU Shaders**](https://arugl.medium.com/hash-noise-in-gpu-shaders-210188ac3a3e), [blog mirror](https://danilw.github.io/blog/Hash_Noise_in_GPU_Shaders/). [Shader link](https://www.shadertoy.com/view/lcBSWd). |
 | <img src="https://danilw.github.io/GLSL-howto/vulkan_sh_launcher/images_bugs/tX2GRm.png" width="650" height="auto" /> | One more real-life example of fract-hash instability [Shader link](https://www.shadertoy.com/view/tX2GRm). |
 | --- | --- |
+
+___
+
+*more bugs in*
+
+[GPU-my-list-of-bugs](https://github.com/danilw/GPU-my-list-of-bugs)
