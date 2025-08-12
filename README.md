@@ -2,6 +2,10 @@
 ___
 
 ## Use fract hash - https://www.shadertoy.com/view/4djSRW
+
+## Read [Hash Noise in GPU Shaders](https://arugl.medium.com/hash-noise-in-gpu-shaders-210188ac3a3e) - there lots of screenshots
+
+*Notice on screenshots below - use `sin(large_numbers)` by itself is broken - not just in hash.*
 ___
 
 ## Short:
@@ -21,12 +25,6 @@ ___
 - **Use fract hash** - **https://www.shadertoy.com/view/4djSRW**
 - *Or int hash - but int hash have exact same behavior as fract hash - because source of random is float.*
 - But - int and fract hash *can still be "broken"*
-
-___
-
-## Read [Hash Noise in GPU Shaders](https://arugl.medium.com/hash-noise-in-gpu-shaders-210188ac3a3e) - there lots of screenshots
-
-*(notice on screenshots below - use `sin(large_numbers)` by itself is broken - not just in hash)*
 
 ___
 
