@@ -1,6 +1,9 @@
 # DO NOT USE SIN HASH
 ___
 
+## Use fract hash - https://www.shadertoy.com/view/4djSRW
+___
+
 ## Short:
 
 *Sin-hash is not stable on "any scale" and there no way to fix it.*
