@@ -6,9 +6,9 @@ ___
 *Sin-hash is not stable on "any scale" and there no way to fix it.*
 
 - Nvidia OpenGL sin-hash
-- will be different to Nvidia DX11/12 sin hash
-- will be different(and broken) to Vulkan
-- will be different(and broken) to AMD/Mac/smartphone/anything else
+- will be different on Nvidia DX11/12 sin hash
+- will be different(and broken) on Vulkan
+- will be different(and broken) on AMD/Mac/smartphone/anything else
 - **When fract-hash will be stable and exact same everywhere** *(except rare cases but can be fixed - read below FIX_FRACT_HASH)*
 
 ![img](https://danilw.github.io/GLSL-howto/vulkan_sh_launcher/images_bugs/stK3WG_comp.png)
