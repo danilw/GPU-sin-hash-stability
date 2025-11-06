@@ -67,6 +67,7 @@ ___
 | <img src="https://danilw.github.io/GLSL-howto/vulkan_sh_launcher/images_bugs/Xc23DW_1.jpg" width="650" height="auto" /> | [BUG TEST Rough Seas fract hash](https://www.shadertoy.com/view/Xc23DW) - Just test shader for this blog post [**Hash Noise stability in GPU Shaders**](https://arugl.medium.com/hash-noise-in-gpu-shaders-210188ac3a3e), [blog mirror](https://danilw.github.io/blog/Hash_Noise_in_GPU_Shaders/). |
 | <img src="https://danilw.github.io/GLSL-howto/vulkan_sh_launcher/images_bugs/4fSXDd.png" width="650" height="auto" /> | Related-example of fract-hash instability described in blog post [**Hash Noise stability in GPU Shaders**](https://arugl.medium.com/hash-noise-in-gpu-shaders-210188ac3a3e), [blog mirror](https://danilw.github.io/blog/Hash_Noise_in_GPU_Shaders/). [Shader link](https://www.shadertoy.com/view/lcBSWd). |
 | <img src="https://danilw.github.io/GLSL-howto/vulkan_sh_launcher/images_bugs/tX2GRm.png" width="650" height="auto" /> | One more real-life example of fract-hash instability [Shader link](https://www.shadertoy.com/view/tX2GRm). |
+| <img src="https://danilw.github.io/GLSL-howto/vulkan_sh_launcher/images_bugs/3XlfWH.jpg" width="650" height="auto" /> | One more real-life example of fract-hash instability [Shader link](https://www.shadertoy.com/view/3XlfWH). |
 | --- | --- |
 
 ___
